@@ -478,6 +478,13 @@ export function PlaybackScreen({
 }: any) {
   const menuRef = React.useRef<HTMLDivElement>(null);
   const buttonRef = React.useRef<HTMLButtonElement>(null);
+  const scrollContainerRef = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTop = 0;
+    }
+  }, [activeSection]);
 
   React.useEffect(() => {
     if (menuOpen && menuRef.current) {
@@ -522,7 +529,7 @@ export function PlaybackScreen({
           </div>
 
           <div style={{ flex: 1, position: 'relative', overflow: 'hidden', background: 'var(--color-surface)' }}>
-            <div style={{ height: '100%', overflowY: 'auto', padding: '24px 24px 0 24px' }} className="arc-scroll">
+            <div ref={scrollContainerRef} style={{ height: '100%', overflowY: 'auto', padding: '24px 24px 0 24px' }} className="arc-scroll">
               <div style={{ fontSize: 14, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: ARC.text, textAlign: 'center', marginBottom: 12 }}>
                 {sectionTitle}
               </div>
