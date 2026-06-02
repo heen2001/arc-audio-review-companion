@@ -22,7 +22,7 @@ By leveraging real-time voice and multimodal AI via **Google AI Studio**, ARC ac
 
 ### 1. Remix in Google AI Studio
 You can play with the prompts, voice controls, and configuration without any local environment:
-1. Open the [AI Studio Share Link](https://ai.studio/apps/9f81a9d2-3e37-45fa-a332-073c47a80f8c).
+1. Open the [AI Studio Share Link](https://ai.studio/apps/5628f004-2db5-427b-b24b-90c789c3c3ef).
 2. Click **"Save a Copy"** in the top right to duplicate the template in your own Google AI Studio account.
 
 ### 2. Running Locally for Developers
