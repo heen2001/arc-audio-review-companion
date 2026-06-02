@@ -5,6 +5,9 @@
 By leveraging real-time voice and multimodal AI via **Google AI Studio**, ARC acts as an active, hands-free reviewer. It follows the structure of your documents while adapting to verbal instructions—allowing you to comment, pause, request re-reads of specific sentences, or resume flows organically.
 
 ---
+![Screenshot of Thia screen in dark mode](https://github.com/user-attachments/assets/6be11c3f-c6cc-4366-867a-2951e56278e0)
+---
+
 
 ## 🚀 Key Features
 
